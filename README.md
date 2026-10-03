@@ -53,6 +53,8 @@ Demo video (MP4, 54 s): [docs/media/shufflebox-demo.mp4](docs/media/shufflebox-d
 
 ## Download / Install
 
+Also on itch.io: [renegade-android.itch.io/shufflebox](https://renegade-android.itch.io/shufflebox)
+
 1. Download `Shufflebox.exe` from the [Releases](../../releases) page.
 2. Put it in a folder of its own (for example `Documents\Shufflebox`), because it saves its settings next to the exe.
 3. Run it.
@@ -109,7 +111,7 @@ Start with Windows uses `HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Shuf
 ## FAQ
 
 **Windows SmartScreen says "Windows protected your PC".**
-The exe isn't code-signed yet, so Windows doesn't recognize it. Click **More info > Run anyway**. Only download Shufflebox from this repository's Releases page.
+The exe isn't code-signed yet, so Windows doesn't recognize it. Click **More info > Run anyway**. Only download Shufflebox from this repository's Releases page or its [itch.io page](https://renegade-android.itch.io/shufflebox).
 
 **A game is missing.**
 Press F5 to rescan. If the game is in an unusual folder, add that folder under **Settings ▾ > Game folders...**, or use the **+** button (Add a game) to pick its exe.
