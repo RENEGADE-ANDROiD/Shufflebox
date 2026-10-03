@@ -1,0 +1,28 @@
+# Public repo = README + docs/screenshots only. Releases carry the exe.
+
+# Source and build tools (kept on disk, not published)
+src/
+*.cs
+build.cmd
+tools/
+.tools/
+generic-icons/
+
+# Build output (published as a GitHub Release asset instead)
+*.exe
+*.pdb
+
+# Runtime data (per machine)
+games.cache.json
+hidden.json
+games.custom.json
+settings.json
+favorites.json
+icon-overrides.json
+icons/
+scan-report.txt
+icon-report.txt
+contact-sheet.png
+error.log
+*.tmp
+*.bak

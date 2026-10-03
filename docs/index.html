@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shufflebox: all your PC games in one place, plus a shuffle button</title>
+  <meta name="description" content="Shufflebox is a free, portable Windows game launcher. It finds your Steam, Epic, GOG and non-Steam games, shows them with their real icons, and picks a random game when you can't decide.">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta property="og:title" content="Shufflebox">
+  <meta property="og:description" content="All your PC games in one place, plus a shuffle button for when you can't decide what to play.">
+  <meta property="og:image" content="screenshots/main-dark.png">
+  <link rel="icon" type="image/png" href="shufflebox-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top"><img src="shufflebox-icon.png" alt="" width="28" height="28"> Shufflebox</a>
+    <nav aria-label="Sections">
+      <a href="#demo">Demo</a>
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="#download">Download</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <img class="logo" src="shufflebox-icon.png" alt="Shufflebox logo" width="168" height="168">
+      <h1>Shufflebox</h1>
+      <p class="tagline">All your PC games in one place, plus a <span class="hl">shuffle button</span> for when you can't decide what to play.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://github.com/RENEGADE-ANDROiD/Shufflebox/releases/latest">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download for Windows
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/RENEGADE-ANDROiD/Shufflebox">View on GitHub</a>
+      </div>
+      <p class="fineprint">Free &middot; Portable single exe &middot; Windows 10 / 11</p>
+    </section>
+
+    <section id="demo" class="section">
+      <h2><span class="pix" aria-hidden="true"></span>See it in action</h2>
+      <div class="video-frame">
+        <video controls muted loop playsinline preload="metadata" poster="screenshots/main-dark.png" width="1320" height="860">
+          <source src="media/shufflebox-demo.mp4" type="video/mp4">
+          Your browser can't play this video. <a href="media/shufflebox-demo.mp4">Download the demo (MP4)</a>.
+        </video>
+      </div>
+      <p class="caption">54-second demo: search, favorites, icon size, themes, the shuffle button and random pick, the desktop panel, pinning and the background opacity slider.</p>
+    </section>
+
+    <section id="features" class="section">
+      <h2><span class="pix" aria-hidden="true"></span>Features</h2>
+      <ul class="features">
+        <li><h3>Finds your games</h3><p>Steam (every library), Epic, GOG and non-Steam games on all fixed and USB drives, including Steam shortcuts, Start Menu shortcuts and your own folders.</p></li>
+        <li><h3>Shuffle</h3><p>Can't decide? The shuffle button rolls through your games and counts down from 5. Launch now, roll again or cancel.</p></li>
+        <li><h3>Real icons</h3><p>Uses each game's Steam or exe icon (up to 256 px) and skips generic engine icons. Set your own icon for any game.</p></li>
+        <li><h3>Desktop panel</h3><p>A borderless panel that stays behind your windows, with an adjustable see-through background. Pin it in place.</p></li>
+        <li><h3>Search &amp; favorites</h3><p>Start typing to filter; Enter launches the first match. Favorites are listed first, each with a star.</p></li>
+        <li><h3>Themes &amp; colors</h3><p>Seven built-in themes, 17 custom color roles with a live preview, and your own background image.</p></li>
+        <li><h3>Your settings respected</h3><p>Steam games launch through Steam, so your launch options apply. Shufflebox never changes game files.</p></li>
+        <li><h3>Portable</h3><p>One small exe. No installer, no account, nothing tracked. Optional start with Windows.</p></li>
+      </ul>
+    </section>
+
+    <section id="screenshots" class="section">
+      <h2><span class="pix" aria-hidden="true"></span>Screenshots</h2>
+      <p class="hint">Click a screenshot to enlarge it.</p>
+      <div class="gallery">
+        <figure class="wide">
+          <a href="screenshots/main-dark.png" class="zoom"><img src="screenshots/main-dark.png" alt="Shufflebox main window in the Dark theme, with favorites first" loading="lazy" width="1500" height="900"></a>
+          <figcaption>Main window (Dark): every game in one searchable grid, favorites first.</figcaption>
+        </figure>
+        <figure>
+          <a href="screenshots/random-pick.png" class="zoom"><img src="screenshots/random-pick.png" alt="Random pick popup with a countdown ring and Launch now, Randomize again and Cancel buttons" loading="lazy" width="675" height="738"></a>
+          <figcaption>Random pick: a 5-second countdown before launch.</figcaption>
+        </figure>
+        <figure>
+          <a href="screenshots/desktop-panel.png" class="zoom"><img src="screenshots/desktop-panel.png" alt="Desktop panel mode with a 50 percent see-through background" loading="lazy" width="600" height="1000"></a>
+          <figcaption>Desktop panel at 50% see-through, pinned.</figcaption>
+        </figure>
+        <figure class="wide">
+          <a href="screenshots/theme-synthwave.png" class="zoom"><img src="screenshots/theme-synthwave.png" alt="Shufflebox in the Synthwave theme" loading="lazy" width="1500" height="900"></a>
+          <figcaption>Synthwave, one of seven built-in themes.</figcaption>
+        </figure>
+        <figure class="wide">
+          <a href="screenshots/customize-colors.png" class="zoom"><img src="screenshots/customize-colors.png" alt="Customize colors dialog with 17 color roles and a live preview" loading="lazy" width="1011" height="870"></a>
+          <figcaption>Customize colors: 17 roles, live preview, save your own themes.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <h2><span class="pix" aria-hidden="true"></span>Download &amp; requirements</h2>
+      <div class="cols">
+        <div class="card">
+          <h3>Requirements</h3>
+          <ul class="ticks">
+            <li>Windows 10 or Windows 11</li>
+            <li>Portable: no installer. Put <code>Shufflebox.exe</code> in a folder of its own and run it; settings are saved next to the exe.</li>
+            <li>Uses .NET Framework 4.x, which is built into Windows, so nothing else needs to be installed.</li>
+          </ul>
+          <a class="btn btn-primary btn-small" href="https://github.com/RENEGADE-ANDROiD/Shufflebox/releases/latest">Download the latest release</a>
+        </div>
+        <div class="card note">
+          <h3>About the SmartScreen warning</h3>
+          <p>The exe isn't code-signed yet, so Windows may show <em>"Windows protected your PC"</em> the first time. Click <strong>More info &rarr; Run anyway</strong>.</p>
+          <p>Only download Shufflebox from the official GitHub Releases page.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <h2><span class="pix" aria-hidden="true"></span>Support / Donate</h2>
+      <p>Shufflebox is free. If you enjoy it, donations are appreciated (honor system, nothing is tracked).</p>
+      <div class="donate">
+        <a class="btn btn-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=shawnjwshackelford%40gmail.com&amp;currency_code=USD" rel="noopener">Donate with PayPal</a>
+        <a class="btn btn-secondary" href="https://cash.app/$renegadeandroid" rel="noopener">Cash App $renegadeandroid</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Freeware</strong>: free to download, use and share unmodified. See the <a href="https://github.com/RENEGADE-ANDROiD/Shufflebox/blob/main/LICENSE">LICENSE</a>.</p>
+    <p>Shufflebox is not affiliated with or endorsed by Valve or Steam. Games, names, logos and icons belong to their respective owners.</p>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Enlarged screenshot">
+    <button type="button" class="lb-close" aria-label="Close">&times;</button>
+    <img alt="">
+    <p class="lb-caption"></p>
+  </dialog>
+
+  <script>
+    (function () {
+      var lb = document.getElementById('lightbox');
+      if (!lb || typeof lb.showModal !== 'function') return; // no <dialog> support: links simply open the image
+      var img = lb.querySelector('img'), cap = lb.querySelector('.lb-caption'), last = null;
+      document.querySelectorAll('a.zoom').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault(); last = a;
+          var t = a.querySelector('img'), fc = a.parentNode.querySelector('figcaption');
+          img.src = a.getAttribute('href'); img.alt = t ? t.alt : '';
+          cap.textContent = fc ? fc.textContent : '';
+          lb.showModal();
+        });
+      });
+      lb.querySelector('.lb-close').addEventListener('click', function () { lb.close(); });
+      lb.addEventListener('click', function (e) { if (e.target === lb) lb.close(); });
+      lb.addEventListener('close', function () { if (last) last.focus(); });
+    })();
+  </script>
+</body>
+</html>
