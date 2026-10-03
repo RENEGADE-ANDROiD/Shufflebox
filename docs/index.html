@@ -3,12 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shufflebox: all your PC games in one place, plus a shuffle button</title>
-  <meta name="description" content="Shufflebox is a free, portable Windows game launcher. It finds your Steam, Epic, GOG and non-Steam games, shows them with their real icons, and picks a random game when you can't decide.">
+  <title>Shufflebox: free Windows game launcher with a random game picker</title>
+  <meta name="description" content="Shufflebox is a free, portable Windows game launcher. It finds your Steam, Epic, GOG and non-Steam games on every drive, shows them with their real icons, and picks a random game when you can't decide.">
+  <link rel="canonical" href="https://renegade-android.github.io/Shufflebox/">
   <meta name="theme-color" content="#0b0b0d">
-  <meta property="og:title" content="Shufflebox">
-  <meta property="og:description" content="All your PC games in one place, plus a shuffle button for when you can't decide what to play.">
-  <meta property="og:image" content="screenshots/main-dark.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shufflebox">
+  <meta property="og:url" content="https://renegade-android.github.io/Shufflebox/">
+  <meta property="og:title" content="Shufflebox: free Windows game launcher with a shuffle button">
+  <meta property="og:description" content="All your PC games in one place (Steam, Epic, GOG and non-Steam), plus a shuffle button for when you can't decide what to play.">
+  <meta property="og:image" content="https://renegade-android.github.io/Shufflebox/screenshots/main-dark.png">
+  <meta property="og:image:width" content="1500">
+  <meta property="og:image:height" content="900">
+  <meta property="og:image:alt" content="Shufflebox main window showing a grid of PC games with their icons">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@RenegadeAndroid">
+  <meta name="twitter:title" content="Shufflebox: free Windows game launcher with a shuffle button">
+  <meta name="twitter:description" content="All your PC games in one place (Steam, Epic, GOG and non-Steam), plus a shuffle button for when you can't decide what to play.">
+  <meta name="twitter:image" content="https://renegade-android.github.io/Shufflebox/screenshots/main-dark.png">
+  <meta name="twitter:image:alt" content="Shufflebox main window showing a grid of PC games with their icons">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Shufflebox",
+    "description": "Shufflebox is a free, portable Windows game launcher. It finds your Steam, Epic, GOG and non-Steam games on every drive, shows them with their real icons, and picks a random game when you can't decide.",
+    "url": "https://renegade-android.github.io/Shufflebox/",
+    "operatingSystem": "Windows 10, Windows 11",
+    "applicationCategory": "GameApplication",
+    "applicationSubCategory": "Game launcher",
+    "softwareVersion": "1.1.0",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "downloadUrl": "https://github.com/RENEGADE-ANDROiD/Shufflebox/releases/latest",
+    "screenshot": "https://renegade-android.github.io/Shufflebox/screenshots/main-dark.png",
+    "image": "https://renegade-android.github.io/Shufflebox/shufflebox-icon.png",
+    "author": { "@type": "Person", "name": "RENEGADE ANDROiD", "url": "https://github.com/RENEGADE-ANDROiD" }
+  }
+  </script>
   <link rel="icon" type="image/png" href="shufflebox-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -29,7 +61,7 @@
   <main id="main">
     <section class="hero" id="top">
       <img class="logo" src="shufflebox-icon.png" alt="Shufflebox logo" width="168" height="168">
-      <h1>Shufflebox</h1>
+      <h1>Shufflebox<span class="sr-only">: free Windows game launcher</span></h1>
       <p class="tagline">All your PC games in one place, plus a <span class="hl">shuffle button</span> for when you can't decide what to play.</p>
       <div class="cta">
         <a class="btn btn-primary" href="https://github.com/RENEGADE-ANDROiD/Shufflebox/releases/latest">
@@ -38,7 +70,7 @@
         </a>
         <a class="btn btn-secondary" href="https://github.com/RENEGADE-ANDROiD/Shufflebox">View on GitHub</a>
       </div>
-      <p class="fineprint">Free &middot; Portable single exe &middot; Windows 10 / 11</p>
+      <p class="fineprint">Free Windows game launcher &middot; Portable single exe &middot; Windows 10 / 11</p>
     </section>
 
     <section id="demo" class="section">
@@ -53,10 +85,10 @@
     </section>
 
     <section id="features" class="section">
-      <h2><span class="pix" aria-hidden="true"></span>Features</h2>
+      <h2><span class="pix" aria-hidden="true"></span>Game launcher features</h2>
       <ul class="features">
-        <li><h3>Finds your games</h3><p>Steam (every library), Epic, GOG and non-Steam games on all fixed and USB drives, including Steam shortcuts, Start Menu shortcuts and your own folders.</p></li>
-        <li><h3>Shuffle</h3><p>Can't decide? The shuffle button rolls through your games and counts down from 5. Launch now, roll again or cancel.</p></li>
+        <li><h3>Finds your games</h3><p>Steam (every library), Epic, GOG and non-Steam games on all fixed and USB drives, including Steam shortcuts, Start Menu shortcuts, common game folders (Xbox, EA, Ubisoft) and your own folders. You can also add a game by hand.</p></li>
+        <li><h3>Random game picker</h3><p>Can't decide? The shuffle button rolls through your games and counts down from 5. Launch now, roll again or cancel.</p></li>
         <li><h3>Real icons</h3><p>Uses each game's Steam or exe icon (up to 256 px) and skips generic engine icons. Set your own icon for any game.</p></li>
         <li><h3>Desktop panel</h3><p>A borderless panel that stays behind your windows, with an adjustable see-through background. Pin it in place.</p></li>
         <li><h3>Search &amp; favorites</h3><p>Start typing to filter; Enter launches the first match. Favorites are listed first, each with a star.</p></li>
@@ -125,7 +157,7 @@
 
   <footer class="footer">
     <p><strong>Freeware</strong>: free to download, use and share unmodified. See the <a href="https://github.com/RENEGADE-ANDROiD/Shufflebox/blob/main/LICENSE">LICENSE</a>.</p>
-    <p>Shufflebox is not affiliated with or endorsed by Valve or Steam. Games, names, logos and icons belong to their respective owners.</p>
+    <p>Shufflebox is not affiliated with or endorsed by Valve (Steam), Epic Games or GOG. Games, names, logos and icons belong to their respective owners.</p>
   </footer>
 
   <dialog id="lightbox" aria-label="Enlarged screenshot">
